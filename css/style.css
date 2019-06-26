@@ -1,0 +1,50 @@
+.content {
+  text-align: center;
+}
+
+.content p {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #000;
+    border-radius: 5px;
+    max-width: 315px;
+    padding: 12px;
+    text-align: left;
+}
+
+.goldStar {
+    color: #FFD700;
+}
+
+.goldStarSelected {
+    color: #FFD700;
+}
+
+.addFilm {
+  text-align: center;     
+}
+
+input {
+    height: 25px;
+    border-radius: 10px;
+    
+}
+
+#click1 {
+    border-radius: 10px;
+    border: 2px solid #676767;
+    height: 50px;
+    transition: all .3s;
+}
+
+#click1:hover {
+    background: #000;
+    color: #676767;
+    cursor: pointer;
+}
+
+.fa {
+    cursor: pointer;
+}
